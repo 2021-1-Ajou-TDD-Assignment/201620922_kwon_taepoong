@@ -40,6 +40,8 @@ public class BowlingGameTest {
 		rollMany(16,0);
 		assertEquals(24, g.score());
 	}
+
+	
 	
 	private void rollSpare() {
 		g.roll(5);
