@@ -24,7 +24,6 @@ public class BowlingGameTest {
 		assertEquals(20, g.score());
 	}
 
-	@Ignore("until we walk frame by frame")
 	@Test
 	public void testOneSpare() {
 		g.roll(5);
@@ -35,7 +34,7 @@ public class BowlingGameTest {
 	}
 	
 	protected void rollMany(int n, int pins) {
-		for(int i=0; i<20; i++) {
+		for(int i=0; i<n; i++) {
 			g.roll(pins);
 		}
 	}
