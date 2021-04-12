@@ -51,7 +51,7 @@ public class BowlingGameTest {
 	public void testTwoStrike() {
 		rollStrike();
 		rollStrike();
-		rollMany(0, 16);
+		rollMany(16, 0);
 		assertEquals(30, g.score());
 	}
 	
